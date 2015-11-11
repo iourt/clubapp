@@ -74,4 +74,16 @@
     <preference name="SplashScreen" value="screen" />
     <preference name="SplashScreenDelay" value="30000" />
     <preference name="SplashMaintainAspectRatio" value="true" />
+    <feature name="YCQQ">
+        <param name="ios-package" value="YCQQ" />
+    </feature>
+    <access origin="https://openmobile.qq.com/*" />
+    <access origin="http://qzonestyle.gtimg.cn/*" />
+    <access origin="http://pub.idqqimg.com/*" />
+    <access origin="http://qzs.qq.com/*" />
+    <access origin="http://m.qzone.com/*" />
+    <access origin="http://*.ptlogin2.qq.com/*" />
+    <access origin="http://*.qq.com/*" />
+    <access origin="http://q2.qlogo.cn/*" />
+    <preference name="QQ_APP_ID" value="1104738128" />
 </widget>

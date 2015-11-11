@@ -98,6 +98,13 @@ module.exports = [
         "clobbers": [
             "window.StatusBar"
         ]
+    },
+    {
+        "file": "plugins/cordova-plugin-qqsdk/www/ycqq.js",
+        "id": "cordova-plugin-qqsdk.ycqq",
+        "clobbers": [
+            "YCQQ"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -113,7 +120,8 @@ module.exports.metadata =
     "cordova-plugin-network-information": "1.0.1",
     "cordova-plugin-splashscreen": "2.1.0",
     "cordova-plugin-statusbar": "1.0.1",
-    "com.contentecontent.cordova.plugins.saveImage": "1.0.0"
+    "com.contentecontent.cordova.plugins.saveImage": "1.0.0",
+    "cordova-plugin-qqsdk": "0.3.9"
 }
 // BOTTOM OF METADATA
 });
