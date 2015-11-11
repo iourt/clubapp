@@ -57,6 +57,7 @@
 		35D29EE418544CD7A1A5D34D /* CDVSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 440F9936D0E84D83BB59851B /* CDVSplashScreen.m */; };
 		C886C11672784BDA84626B1E /* CDVViewController+SplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE05297B92748BC9F7B8AC2 /* CDVViewController+SplashScreen.m */; };
 		8646941D5B7F43FC978D1D92 /* CDVStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0FF626C7D94BD88E7C632E /* CDVStatusBar.m */; };
+		00FE7C1849534BF18D24664C /* SaveImageFromURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 84951A676F4A44B995864B1D /* SaveImageFromURL.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -153,6 +154,8 @@
 		B2E371E6CCC347D09DC77B55 /* CDVViewController+SplashScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVViewController+SplashScreen.h"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.h"; sourceTree = "<group>"; fileEncoding = 4; };
 		BF0FF626C7D94BD88E7C632E /* CDVStatusBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVStatusBar.m"; path = "cordova-plugin-statusbar/CDVStatusBar.m"; sourceTree = "<group>"; fileEncoding = 4; };
 		E18B5F9A957E48A8BC666FEC /* CDVStatusBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVStatusBar.h"; path = "cordova-plugin-statusbar/CDVStatusBar.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		84951A676F4A44B995864B1D /* SaveImageFromURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "SaveImageFromURL.m"; path = "com.contentecontent.cordova.plugins.saveImage/SaveImageFromURL.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		4FE32A9FD06645DF937A6FA2 /* SaveImageFromURL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SaveImageFromURL.h"; path = "com.contentecontent.cordova.plugins.saveImage/SaveImageFromURL.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -288,6 +291,8 @@
 				B2E371E6CCC347D09DC77B55 /* CDVViewController+SplashScreen.h */,
 				BF0FF626C7D94BD88E7C632E /* CDVStatusBar.m */,
 				E18B5F9A957E48A8BC666FEC /* CDVStatusBar.h */,
+				84951A676F4A44B995864B1D /* SaveImageFromURL.m */,
+				4FE32A9FD06645DF937A6FA2 /* SaveImageFromURL.h */,
 			);
 			name = Plugins;
 			path = club/Plugins;
@@ -486,6 +491,7 @@
 				35D29EE418544CD7A1A5D34D /* CDVSplashScreen.m in Sources */,
 				C886C11672784BDA84626B1E /* CDVViewController+SplashScreen.m in Sources */,
 				8646941D5B7F43FC978D1D92 /* CDVStatusBar.m in Sources */,
+				00FE7C1849534BF18D24664C /* SaveImageFromURL.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

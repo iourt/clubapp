@@ -112,7 +112,8 @@ module.exports.metadata =
     "ionic-plugin-keyboard": "1.0.7",
     "cordova-plugin-network-information": "1.0.1",
     "cordova-plugin-splashscreen": "2.1.0",
-    "cordova-plugin-statusbar": "1.0.1"
+    "cordova-plugin-statusbar": "1.0.1",
+    "com.contentecontent.cordova.plugins.saveImage": "1.0.0"
 }
 // BOTTOM OF METADATA
 });

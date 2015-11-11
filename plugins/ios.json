@@ -55,6 +55,10 @@
                         {
                             "xml": "<preference name=\"StatusBarStyle\" value=\"lightcontent\" />",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"SaveImage\"><param name=\"ios-package\" value=\"SaveImageFromURL\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -146,6 +150,9 @@
             "PACKAGE_NAME": "cn.com.yejs.teacher"
         },
         "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "cn.com.yejs.teacher"
+        },
+        "com.contentecontent.cordova.plugins.saveImage": {
             "PACKAGE_NAME": "cn.com.yejs.teacher"
         }
     },

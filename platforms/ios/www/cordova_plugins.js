@@ -93,6 +93,13 @@ module.exports = [
         "clobbers": [
             "window.StatusBar"
         ]
+    },
+    {
+        "file": "plugins/com.contentecontent.cordova.plugins.saveImage/www/saveImage.js",
+        "id": "com.contentecontent.cordova.plugins.saveImage.SaveImage",
+        "clobbers": [
+            "plugins.saveImage"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -107,7 +114,8 @@ module.exports.metadata =
     "ionic-plugin-keyboard": "1.0.7",
     "cordova-plugin-network-information": "1.0.1",
     "cordova-plugin-splashscreen": "2.1.0",
-    "cordova-plugin-statusbar": "1.0.1"
+    "cordova-plugin-statusbar": "1.0.1",
+    "com.contentecontent.cordova.plugins.saveImage": "1.0.0"
 }
 // BOTTOM OF METADATA
 });

@@ -97,6 +97,9 @@
         },
         "cordova-plugin-statusbar": {
             "PACKAGE_NAME": "cn.com.yejs.teacher"
+        },
+        "com.contentecontent.cordova.plugins.saveImage": {
+            "PACKAGE_NAME": "cn.com.yejs.teacher"
         }
     },
     "dependent_plugins": {}
