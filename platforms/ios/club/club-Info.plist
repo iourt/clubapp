@@ -194,6 +194,26 @@
           <string>tencent1104738128</string>
         </array>
       </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string>tencentopenapi</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>tencent1104738128</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string>tencentopenapi</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>tencent1104738128</string>
+        </array>
+      </dict>
     </array>
     <key>LSApplicationQueriesSchemes</key>
     <array>
@@ -219,7 +239,6 @@
       <string>mqzoneopensdkapiV2</string>
       <string>mqzoneopensdkapi19</string>
       <string>mqzoneopensdkapi</string>
-      <string>mqzoneopensdk</string>
     </array>
   </dict>
 </plist>

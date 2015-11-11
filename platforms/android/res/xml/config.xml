@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="cn.com.yejs.teacher" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="cn.com.yejs.teacher" version="2.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <preference name="loglevel" value="DEBUG" />
     <feature name="ActionSheet">
         <param name="android-package" value="nl.xservices.plugins.actionsheet.ActionSheet" />
@@ -11,22 +11,6 @@
     <feature name="AppVersion">
         <param name="android-package" value="uk.co.whiteoctober.cordova.AppVersion" />
     </feature>
-    <allow-intent href="market:*" />
-    <name>club</name>
-    <description>
-        师乐汇是一个以优质资源为主题的图片分享社区。在这里，寻找另一个你。
-    </description>
-    <author email="dev@tjoys.net" href="http://tjoys.net">
-        Tjoys
-    </author>
-    <content src="index.html" />
-    <access origin="*" />
-    <allow-intent href="http://*/*" />
-    <allow-intent href="https://*/*" />
-    <allow-intent href="tel:*" />
-    <allow-intent href="sms:*" />
-    <allow-intent href="mailto:*" />
-    <allow-intent href="geo:*" />
     <feature name="Camera">
         <param name="android-package" value="org.apache.cordova.camera.CameraLauncher" />
     </feature>
@@ -63,4 +47,29 @@
     <access origin="http://*.qq.com/*" />
     <access origin="http://q2.qlogo.cn/*" />
     <preference name="QQ_APP_ID" value="1104738128" />
+    <allow-intent href="market:*" />
+    <name>club</name>
+    <description>
+        师乐汇是一个以优质资源为主题的图片分享社区。在这里，寻找另一个你。
+    </description>
+    <author email="dev@tjoys.net" href="http://tjoys.net">
+        Tjoys
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <preference name="Fullscreen" value="true" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="StatusBarOverlaysWebView" value="true" />
+    <preference name="StatusBarBackgroundColor" value="#000000" />
+    <preference name="StatusBarStyle" value="styleDefault" />
+    <preference name="FadeSplashScreenDuration" value="0" />
+    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreenDelay" value="30000" />
+    <preference name="SplashMaintainAspectRatio" value="true" />
 </widget>
