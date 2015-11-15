@@ -214,6 +214,26 @@
           <string>tencent1104738128</string>
         </array>
       </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string>tencentopenapi</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>tencent1104738128</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string>tencentopenapi</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>tencent1104738128</string>
+        </array>
+      </dict>
     </array>
     <key>LSApplicationQueriesSchemes</key>
     <array>
