@@ -47,6 +47,17 @@
     <access origin="http://*.qq.com/*" />
     <access origin="http://q2.qlogo.cn/*" />
     <preference name="QQ_APP_ID" value="1104738128" />
+    <feature name="File">
+        <param name="android-package" value="org.apache.cordova.file.FileUtils" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="FileTransfer">
+        <param name="android-package" value="org.apache.cordova.filetransfer.FileTransfer" />
+    </feature>
+    <feature name="SaveImage">
+        <param name="android-package" value="com.appue.SaveImage.SaveImage" />
+    </feature>
+    <preference name="AndroidPersistentFileLocation" value="Internal" />
     <allow-intent href="market:*" />
     <name>club</name>
     <description>

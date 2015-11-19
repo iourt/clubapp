@@ -1,0 +1,37 @@
+{
+  "name": "com.appue.saveimage",
+  "version": "0.6.0",
+  "description": "This plugin allows you to save an image form a URL to the iOS Photo Library, or Android Gallery from your app.",
+  "cordova": {
+    "id": "com.appue.saveimage",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appue/saveimage.git"
+  },
+  "keywords": [
+    "image",
+    "photo library",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": {
+    "name": "appue",
+    "email": "enuobear@gmail.com",
+    "url": "http://appue.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/appue/saveimage/issues"
+  },
+  "homepage": "https://github.com/appue/saveimage#readme"
+}

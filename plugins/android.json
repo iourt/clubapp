@@ -87,6 +87,18 @@
                         {
                             "xml": "<preference name=\"QQ_APP_ID\" value=\"1104738128\" />",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"File\"><param name=\"android-package\" value=\"org.apache.cordova.file.FileUtils\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"FileTransfer\"><param name=\"android-package\" value=\"org.apache.cordova.filetransfer.FileTransfer\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"SaveImage\"><param name=\"android-package\" value=\"com.appue.SaveImage.SaveImage\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -96,7 +108,7 @@
                     "/*": [
                         {
                             "xml": "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />",
-                            "count": 1
+                            "count": 4
                         },
                         {
                             "xml": "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />",
@@ -124,6 +136,16 @@
                         },
                         {
                             "xml": "<activity android:configChanges=\"orientation|keyboardHidden\" android:name=\"com.tencent.connect.common.AssistActivity\" android:screenOrientation=\"portrait\" android:theme=\"@android:style/Theme.Translucent.NoTitleBar\"></activity>",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<preference name=\"AndroidPersistentFileLocation\" value=\"Internal\" />",
                             "count": 1
                         }
                     ]
@@ -167,6 +189,15 @@
         },
         "cordova-plugin-qqsdk": {
             "QQ_APP_ID": "1104738128",
+            "PACKAGE_NAME": "cn.com.yejs.teacher"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "cn.com.yejs.teacher"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "cn.com.yejs.teacher"
+        },
+        "com.appue.saveimage": {
             "PACKAGE_NAME": "cn.com.yejs.teacher"
         }
     },
